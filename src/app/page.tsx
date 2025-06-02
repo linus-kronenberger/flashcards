@@ -8,9 +8,6 @@ export default function Page() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    // Hier würde normalerweise die Login-Logik stehen
-    
-    // Navigation zur list_view Seite
     router.push('/list_view');
   };
 
